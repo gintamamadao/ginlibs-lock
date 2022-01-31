@@ -1,6 +1,6 @@
 import { isFunc } from 'ginlibs-type-check'
 
-const noop = () => {}
+const noop = () => undefined
 
 export class AsyncLock {
   private promise: Promise<any>
